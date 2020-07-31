@@ -9,23 +9,33 @@ Tools Used:
 **FDs and Normalization**
 
 1. Employees, Supervisors, Drivers Tables:
+
 empId -> empName, empRegion, empPhone, empHours_worked, salary, licenseNo,
    wage, supervisorId, dRating
 
 2. Customers Table
+
 cId -> cName, cRegion, cPhone, cAddress
 
 3. Orders Table
+
 orderId -> total, cId, time_made, rId, empId, time_delivered
 
 4. Restaurants Table
+
 rId -> rName, rCuisine, rRegion, rPhone, rAddress, rRating
 
 5. MenuItems table
+
 rId, itemName -> itemPrice
 
 **Normalization:**
+
 All determinants are super keys to their respective tables, therefore all relations
 are in BCNF form
 
 **ER Diagram**
+
+![alt text](https://github.com/avianshgupta/DBMS-Mini-Project-Food-Delivery-System/blob/master/screenshots/ER.png?raw=true)
+
+
